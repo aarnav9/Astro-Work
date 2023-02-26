@@ -1,0 +1,30 @@
+1000           ! number of rays    
+10             ! number of sample particles    
+1.0d-4         ! Minimum relative flux    
+50             ! Max internal chord    
+50             ! Max external chord    
+90             ! number of scattering angle bins    
+1.0            ! Refractive index of the medium   
+1.88           ! Mantle: Particle refractive index (real)
+0.037          ! Mantle: Particle refractive index (imag)
+1.88           ! Core: Particle refractive index (real)
+0.037          ! Core: Particle refractive index (imag)
+0              ! seed for random number generation    
+0.200          ! Wavelength
+20.200d0       ! Outer radius (in micrometers)    
+20.0d0         ! Inner radius (in micrometers)  
+1              ! Identification number for run
+1              ! External medium: 1=yes  
+0              ! Internal medium: 1=yes    
+0.097          ! External medium: single-scattering albedo
+1.0d0          ! Internal medium: single-scattering albedo    
+1.19           ! External medium: mean free path (in micrometers)
+1.0d0          ! Internal medium: mean free path   
+180            ! Number of phase matrix angular points    
+1000           ! Number of points in random number array    
+256            ! Number of G-L integration points for cosine map    
+0.1            ! Relative standard deviation of radius    
+2.0            ! Power law index for C_3 correlation    
+10             ! Maximum degree in C_1, C_2, C_3    
+24             ! Number of rows in an octant    
+test           ! Prefix for the output file names

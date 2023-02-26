@@ -1,0 +1,24 @@
+Geometric optics approximation for a Gaussian random sphere...
+Particle mean radius   200.0 micrometers
+Number of rays: 50000
+Reading diffuse particle scattering matrix input from file 'pmatrix1.in'
+  computing at ray 5000/50000
+  computing at ray 10000/50000
+  computing at ray 15000/50000
+  computing at ray 20000/50000
+  computing at ray 25000/50000
+  computing at ray 30000/50000
+  computing at ray 35000/50000
+  computing at ray 40000/50000
+  computing at ray 45000/50000
+  computing at ray 50000/50000
+----------------
+Results:
+Qsca =   0.1877E+00
+Qabs =   0.8122E+00
+SSA =  0.18771
+Rays hit =              61991.1
+Rays miss =              66339.0
+Scattering matrix elements written in file 'test11-S.out'
+...and to file 'test11-pmat.out'
+Scattering efficiencies written in file 'test11-Q.out'

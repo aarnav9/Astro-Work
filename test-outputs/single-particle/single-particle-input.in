@@ -1,0 +1,33 @@
+50000     ! number of rays
+1         ! number of sample particles
+1.0d-4    ! Minimum relative flux
+21        ! Max internal chord
+21        ! Max external chord
+60        ! number of scattering angle bins
+1.0       ! Refractive index of the medium
+1.5       ! particle refractive index, real
+0.1E-020  ! particle ref index, imag
+0         ! seed for random number generation
+1.5E+000  ! wavelength in micrometers
+200.0     ! Mean radius (in micrometers)
+1         ! run identification number
+1         ! Internal medium: 1=yes
+1         ! Scattering matrix: input(1), Rayleigh(2)
+0.549069  ! Internal medium: single-scattering albedo
+53.33     ! Internal medium: mean free path (in micrometers)
+0.5       ! Diffuse-medium asymmetry parameter (internal)
+0.5       ! Diffuse-medium forward asymmetry (internal)
+-0.0      ! Diffuse-medium backward parameter (internal)
+0.3       ! Diffuse-medium single-scattering max. polarisation
+60        ! Number of phase matrix angular points
+1000      ! Number of points in random number array
+32        ! Number of G-L integration points for cosine map
+0.2       ! Relative standard deviation of radius
+4.0       ! Power law index for C_1 correlation
+10        ! Maximum degree in C_1, C_2, C_3
+30        ! Number of rows in an octant
+test1     ! prefix for output file
+0         ! external input mesh type: 0=no mesh, 1=OFF, 2=OBJ
+0         ! Translate vertex mean to origin: 0=no, 1=yes
+0         ! Scale vertex mean radius to one: 0=no, 1=yes
+GS-geom.off  ! external mesh file name

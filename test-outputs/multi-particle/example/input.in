@@ -1,0 +1,12 @@
+nrays 10000
+max_scattering 200
+killswitch_start 70
+nbins 80
+I_cutoff_limit 0.0000001
+seed 0
+wavelen 6.283185307179586
+mesh_scale 2000
+mesh sphere.off
+force_interaction 1
+beam_radius -1
+material1 1.5 0.0 0 1.0 0.9460290562711914 outputS_ave.out 0 ~/dists/cdfconstant04dist.txt

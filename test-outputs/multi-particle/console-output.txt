@@ -1,0 +1,50 @@
+=READING INPUTS FROM: input.in=======================================================================
+seed = 0
+Using seed: -58851701
+centralize was not given, using default value: 0
+mesh = sphere.off
+=READ MESH FROM: sphere.off==========================================================================
+n_vertices: 1892, n_faces: 3780
+=MESH READ SUCCESFULLY=========
+=MATERIALS===========================================================================================
+Material format: ref_real ref_imag diffuse_inclusions mean_free_path albedo fname
+Surrouding medium format: ref_real ref_imag 0
+media was not given, using default value: n=1+i0
+material1 = n=1.5+i0
+=====================================================================================================
+nbins = 80
+nbins_fine_details_start was not given, using default value: 180
+force_interaction = 1
+ignore_absorption was not given, using default value: 0
+prevent_TR was not given, using default value: 0
+max_scattering = 200
+I_cutoff_limit = 9.9999999999999995e-08
+killswitch_start = 70
+wavelen = 6.2831853071795862
+mesh_scale = 2000
+beam_radius = -1
+=TRACER: INITIALIZE==================================================================================
+nrays = 10000
+check_time_after_nrays was not given, using default value: 10000
+allocated_time_in_hours was not given, using default value: 99999
+=TRACER: START=======================================================================================
+=TRACING: FINISHED===================================================================================
+output_file was not given, using default value: outputS.out
+pmatrix_out was not given, using default value: pmatrix.out
+details_out was not given, using default value: details.out
+=OUTPUT==============================================================================================
+From: 10000 rays 6781 unhit 0 hit but not scattered
+Real_Area: 12135324.813693793, Eff_area: 12135324.813693793
+===============================
+Q_abs      : 0
+Q_abs_diff : 0
+Q_sca      : 0.99805352371831646
+Q_stop     : 0.0019464762816917989
+Q_surf     : 0
+===============================
+Total      : 1.0000000000000084
+===============================
+Seed       : -58851701
+Q_dt       : -nan
+=SAVING OUTPUT=================
+=EXIT================================================================================================
